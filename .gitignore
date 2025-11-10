@@ -1,0 +1,44 @@
+# Environment variables (NEVER push this!)
+.env
+*.env
+.env.local
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
